@@ -1,0 +1,33 @@
+{
+  "frames": {
+    "hud/bar": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 960,
+        "h": 176
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 960,
+        "h": 176
+      },
+      "sourceSize": {
+        "w": 960,
+        "h": 176
+      }
+    }
+  },
+  "meta": {
+    "image": "hud.png",
+    "size": {
+      "w": 1024,
+      "h": 256
+    },
+    "scale": "1",
+    "assetScale": 4
+  }
+}

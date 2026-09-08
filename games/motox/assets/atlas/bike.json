@@ -1,0 +1,413 @@
+{
+  "frames": {
+    "bike/body-0": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 184,
+        "h": 84
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 184,
+        "h": 84
+      },
+      "sourceSize": {
+        "w": 184,
+        "h": 84
+      }
+    },
+    "bike/body-1": {
+      "frame": {
+        "x": 187,
+        "y": 1,
+        "w": 184,
+        "h": 84
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 184,
+        "h": 84
+      },
+      "sourceSize": {
+        "w": 184,
+        "h": 84
+      }
+    },
+    "bike/body-2": {
+      "frame": {
+        "x": 373,
+        "y": 1,
+        "w": 184,
+        "h": 84
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 184,
+        "h": 84
+      },
+      "sourceSize": {
+        "w": 184,
+        "h": 84
+      }
+    },
+    "bike/body-3": {
+      "frame": {
+        "x": 559,
+        "y": 1,
+        "w": 184,
+        "h": 84
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 184,
+        "h": 84
+      },
+      "sourceSize": {
+        "w": 184,
+        "h": 84
+      }
+    },
+    "bike/body-4": {
+      "frame": {
+        "x": 745,
+        "y": 1,
+        "w": 168,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 168,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 168,
+        "h": 120
+      }
+    },
+    "bike/limb-0-0": {
+      "frame": {
+        "x": 625,
+        "y": 87,
+        "w": 40,
+        "h": 40
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 40,
+        "h": 40
+      },
+      "sourceSize": {
+        "w": 40,
+        "h": 40
+      }
+    },
+    "bike/limb-0-1": {
+      "frame": {
+        "x": 667,
+        "y": 87,
+        "w": 40,
+        "h": 40
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 40,
+        "h": 40
+      },
+      "sourceSize": {
+        "w": 40,
+        "h": 40
+      }
+    },
+    "bike/limb-0-2": {
+      "frame": {
+        "x": 579,
+        "y": 87,
+        "w": 44,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 44,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 44
+      }
+    },
+    "bike/limb-1-0": {
+      "frame": {
+        "x": 1,
+        "y": 87,
+        "w": 72,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 24
+      }
+    },
+    "bike/limb-1-1": {
+      "frame": {
+        "x": 75,
+        "y": 87,
+        "w": 72,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 24
+      }
+    },
+    "bike/limb-1-2": {
+      "frame": {
+        "x": 149,
+        "y": 87,
+        "w": 72,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 24
+      }
+    },
+    "bike/limb-2-0": {
+      "frame": {
+        "x": 223,
+        "y": 87,
+        "w": 64,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      }
+    },
+    "bike/limb-2-1": {
+      "frame": {
+        "x": 1,
+        "y": 113,
+        "w": 64,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      }
+    },
+    "bike/limb-2-2": {
+      "frame": {
+        "x": 67,
+        "y": 113,
+        "w": 56,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 32
+      }
+    },
+    "bike/limb-3-0": {
+      "frame": {
+        "x": 125,
+        "y": 113,
+        "w": 56,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 28
+      }
+    },
+    "bike/limb-3-1": {
+      "frame": {
+        "x": 289,
+        "y": 87,
+        "w": 56,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 28
+      }
+    },
+    "bike/limb-3-2": {
+      "frame": {
+        "x": 347,
+        "y": 87,
+        "w": 56,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 28
+      }
+    },
+    "bike/limb-4-0": {
+      "frame": {
+        "x": 405,
+        "y": 87,
+        "w": 56,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 28
+      }
+    },
+    "bike/limb-4-1": {
+      "frame": {
+        "x": 463,
+        "y": 87,
+        "w": 56,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 28
+      }
+    },
+    "bike/limb-4-2": {
+      "frame": {
+        "x": 521,
+        "y": 87,
+        "w": 56,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 28
+      }
+    }
+  },
+  "meta": {
+    "image": "bike.png",
+    "size": {
+      "w": 1024,
+      "h": 256
+    },
+    "scale": "1",
+    "assetScale": 4
+  }
+}

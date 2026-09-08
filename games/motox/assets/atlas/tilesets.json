@@ -1,0 +1,93 @@
+{
+  "frames": {
+    "tilesets/env-0": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 512,
+        "h": 3200
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 3200
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 3200
+      }
+    },
+    "tilesets/env-1": {
+      "frame": {
+        "x": 1,
+        "y": 3203,
+        "w": 512,
+        "h": 3200
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 3200
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 3200
+      }
+    },
+    "tilesets/env-2": {
+      "frame": {
+        "x": 515,
+        "y": 1,
+        "w": 512,
+        "h": 3200
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 3200
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 3200
+      }
+    },
+    "tilesets/env-3": {
+      "frame": {
+        "x": 515,
+        "y": 3203,
+        "w": 512,
+        "h": 3200
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 3200
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 3200
+      }
+    }
+  },
+  "meta": {
+    "image": "tilesets.png",
+    "size": {
+      "w": 2048,
+      "h": 8192
+    },
+    "scale": "1",
+    "assetScale": 4
+  }
+}

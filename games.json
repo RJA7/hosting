@@ -1,3 +1,10 @@
 {
-  "games": []
+  "games": [
+    {
+      "slug": "motox",
+      "name": "Motox",
+      "engine": "pixi",
+      "updated": "2026-09-08"
+    }
+  ]
 }

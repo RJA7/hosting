@@ -1,0 +1,73 @@
+{
+  "frames": {
+    "softkeys/icon-0": {
+      "frame": {
+        "x": 1,
+        "y": 109,
+        "w": 52,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 52,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 52,
+        "h": 48
+      }
+    },
+    "softkeys/icon-1": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 52,
+        "h": 52
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 52,
+        "h": 52
+      },
+      "sourceSize": {
+        "w": 52,
+        "h": 52
+      }
+    },
+    "softkeys/icon-2": {
+      "frame": {
+        "x": 1,
+        "y": 55,
+        "w": 52,
+        "h": 52
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 52,
+        "h": 52
+      },
+      "sourceSize": {
+        "w": 52,
+        "h": 52
+      }
+    }
+  },
+  "meta": {
+    "image": "softkeys.png",
+    "size": {
+      "w": 64,
+      "h": 256
+    },
+    "scale": "1",
+    "assetScale": 4
+  }
+}

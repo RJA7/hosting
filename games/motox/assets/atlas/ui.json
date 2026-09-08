@@ -1,0 +1,73 @@
+{
+  "frames": {
+    "ui/logo": {
+      "frame": {
+        "x": 1,
+        "y": 919,
+        "w": 288,
+        "h": 280
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 288,
+        "h": 280
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 280
+      }
+    },
+    "ui/splash": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 596,
+        "h": 916
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 596,
+        "h": 916
+      },
+      "sourceSize": {
+        "w": 596,
+        "h": 916
+      }
+    },
+    "ui/title": {
+      "frame": {
+        "x": 1,
+        "y": 1201,
+        "w": 468,
+        "h": 164
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 468,
+        "h": 164
+      },
+      "sourceSize": {
+        "w": 468,
+        "h": 164
+      }
+    }
+  },
+  "meta": {
+    "image": "ui.png",
+    "size": {
+      "w": 1024,
+      "h": 2048
+    },
+    "scale": "1",
+    "assetScale": 4
+  }
+}

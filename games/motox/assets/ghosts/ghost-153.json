@@ -1,0 +1,376 @@
+{
+  "record": 153,
+  "track": 27,
+  "challenges": [
+    53
+  ],
+  "resultFrames": 513,
+  "staleTrack": false,
+  "start": {
+    "state": {
+      "gravity": 256,
+      "leanDecay": 768,
+      "brakeScale": 1024,
+      "surfaceGrip": 32,
+      "penetrationScale": 1024,
+      "frontLink": 850,
+      "rearLink": 750,
+      "enginePower": 2048,
+      "topSpeed": 20120,
+      "leanTorque": 1024,
+      "tireGrip": 768,
+      "rollingGrip": 512,
+      "boostPower": 0,
+      "boostDuration": 0,
+      "colour": 1
+    },
+    "joints": [
+      {
+        "name": "chassisRear",
+        "x": 202622,
+        "y": 335317,
+        "prevX": 195795,
+        "prevY": 335382,
+        "forceX": 0,
+        "forceY": 0
+      },
+      {
+        "name": "chassisFront",
+        "x": 225780,
+        "y": 332807,
+        "prevX": 218966,
+        "prevY": 333247,
+        "forceX": 0,
+        "forceY": 0
+      },
+      {
+        "name": "rearWheel",
+        "x": 199410,
+        "y": 349661,
+        "prevX": 192368,
+        "prevY": 349522,
+        "forceX": 0,
+        "forceY": 0
+      },
+      {
+        "name": "frontWheel",
+        "x": 235568,
+        "y": 347165,
+        "prevX": 228551,
+        "prevY": 347822,
+        "forceX": 0,
+        "forceY": 0
+      },
+      {
+        "name": "riderHip",
+        "x": 208976,
+        "y": 324397,
+        "prevX": 201859,
+        "prevY": 327141,
+        "forceX": 0,
+        "forceY": 0
+      },
+      {
+        "name": "rider5",
+        "x": 201866,
+        "y": 330834,
+        "prevX": 194056,
+        "prevY": 332326,
+        "forceX": 0,
+        "forceY": 0
+      },
+      {
+        "name": "rider6",
+        "x": 222748,
+        "y": 328936,
+        "prevX": 215967,
+        "prevY": 329350,
+        "forceX": 0,
+        "forceY": 0
+      },
+      {
+        "name": "rider7",
+        "x": 214177,
+        "y": 344148,
+        "prevX": 207116,
+        "prevY": 344392,
+        "forceX": 0,
+        "forceY": 0
+      },
+      {
+        "name": "rider8",
+        "x": 211391,
+        "y": 334239,
+        "prevX": 203765,
+        "prevY": 334802,
+        "forceX": 0,
+        "forceY": 0
+      },
+      {
+        "name": "rider9",
+        "x": 215050,
+        "y": 324662,
+        "prevX": 207933,
+        "prevY": 327149,
+        "forceX": 0,
+        "forceY": 0
+      }
+    ],
+    "animation": 0,
+    "animationProgress": 2,
+    "lean": -431,
+    "driveImpulse": 1386,
+    "wheelStiffness": 32,
+    "rearContactNormalX": 1000,
+    "rearContactNormalY": 20,
+    "rearGrounded": 1,
+    "frontGrounded": 0,
+    "headingX": 1008,
+    "headingY": -110,
+    "groundSpeed": 6484,
+    "airborneFrames": 0,
+    "leanInput": 0,
+    "boostPower": 0,
+    "boostTimer": -17,
+    "boostCharges": 0,
+    "boostHeld": 0,
+    "bikeVariant": 2,
+    "fittedParts": 163976
+  },
+  "events": [
+    {
+      "frame": 0,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 6,
+      "input": [
+        "throttle",
+        "leanLeft"
+      ]
+    },
+    {
+      "frame": 20,
+      "input": []
+    },
+    {
+      "frame": 26,
+      "input": [
+        "brake"
+      ]
+    },
+    {
+      "frame": 28,
+      "input": [
+        "brake",
+        "leanRight"
+      ]
+    },
+    {
+      "frame": 34,
+      "input": [
+        "brake"
+      ]
+    },
+    {
+      "frame": 35,
+      "input": []
+    },
+    {
+      "frame": 42,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 49,
+      "input": []
+    },
+    {
+      "frame": 75,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 76,
+      "input": [
+        "throttle",
+        "leanLeft"
+      ]
+    },
+    {
+      "frame": 133,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 146,
+      "input": [
+        "throttle",
+        "leanRight"
+      ]
+    },
+    {
+      "frame": 163,
+      "input": [
+        "throttle",
+        "leanLeft"
+      ]
+    },
+    {
+      "frame": 182,
+      "input": [
+        "throttle",
+        "leanRight"
+      ]
+    },
+    {
+      "frame": 205,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 214,
+      "input": [
+        "throttle",
+        "leanLeft"
+      ]
+    },
+    {
+      "frame": 224,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 234,
+      "input": [
+        "throttle",
+        "leanLeft"
+      ]
+    },
+    {
+      "frame": 260,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 279,
+      "input": [
+        "throttle",
+        "leanRight"
+      ]
+    },
+    {
+      "frame": 295,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 303,
+      "input": [
+        "throttle",
+        "leanLeft"
+      ]
+    },
+    {
+      "frame": 315,
+      "input": [
+        "throttle",
+        "leanRight"
+      ]
+    },
+    {
+      "frame": 343,
+      "input": [
+        "throttle",
+        "leanLeft"
+      ]
+    },
+    {
+      "frame": 361,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 376,
+      "input": [
+        "throttle",
+        "leanRight"
+      ]
+    },
+    {
+      "frame": 384,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 388,
+      "input": [
+        "throttle",
+        "leanLeft"
+      ]
+    },
+    {
+      "frame": 415,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 418,
+      "input": [
+        "throttle",
+        "leanRight"
+      ]
+    },
+    {
+      "frame": 440,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 445,
+      "input": [
+        "throttle",
+        "leanLeft"
+      ]
+    },
+    {
+      "frame": 460,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 462,
+      "input": [
+        "throttle",
+        "leanRight"
+      ]
+    },
+    {
+      "frame": 483,
+      "input": [
+        "throttle"
+      ]
+    },
+    {
+      "frame": 499,
+      "input": [
+        "throttle",
+        "leanLeft"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "frames": {
+    "fx/backdrop": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 320,
+        "h": 224
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 224
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 224
+      }
+    }
+  },
+  "meta": {
+    "image": "fx.png",
+    "size": {
+      "w": 512,
+      "h": 256
+    },
+    "scale": "1",
+    "assetScale": 4
+  }
+}
