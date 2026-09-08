@@ -2,9 +2,10 @@
   "games": [
     {
       "slug": "motox",
-      "name": "Motox",
+      "name": "MotoX",
       "engine": "pixi",
-      "updated": "2026-09-08"
+      "updated": "2026-09-08",
+      "description": "Freestyle MotoX II \u2014 web remake."
     }
   ]
 }
