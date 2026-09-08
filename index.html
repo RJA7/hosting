@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Games</title>
+<style>
+  :root { color-scheme: dark; --bg:#0e0f13; --card:#171a21; --fg:#e8eaf0; --muted:#8b93a7; --accent:#5b8cff; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  header { padding:48px 24px 24px; max-width:1100px; margin:0 auto; }
+  h1 { margin:0 0 8px; font-size:32px; }
+  .sub { color:var(--muted); }
+  main { max-width:1100px; margin:0 auto; padding:0 24px 64px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:16px; }
+  a.card { display:flex; flex-direction:column; background:var(--card); border:1px solid #232838; border-radius:12px; overflow:hidden; text-decoration:none; color:inherit; transition:transform .12s ease, border-color .12s ease; }
+  a.card:hover { transform:translateY(-2px); border-color:var(--accent); }
+  .thumb { aspect-ratio:16/9; background:#0b0d12 center/cover no-repeat; display:flex; align-items:center; justify-content:center; color:var(--muted); font-size:13px; }
+  .body { padding:12px 14px 14px; }
+  .title { font-weight:600; }
+  .desc { color:var(--muted); font-size:14px; margin-top:4px; }
+  .meta { color:#5f6780; font-size:12px; margin-top:8px; }
+  .empty { color:var(--muted); padding:32px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Games</h1>
+  <div class="sub">WebGL builds hosted on GitHub Pages.</div>
+</header>
+<main>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>No games published yet.</div>
+</main>
+<script>
+(async () => {
+  const grid = document.getElementById('grid');
+  const empty = document.getElementById('empty');
+  let games = [];
+  try {
+    const res = await fetch('games.json?v=' + Date.now());
+    games = (await res.json()).games || [];
+  } catch (e) {
+    console.error('failed to load games.json', e);
+  }
+  if (!games.length) { empty.hidden = false; return; }
+  games.sort((a, b) => (b.updated || '').localeCompare(a.updated || ''));
+  for (const g of games) {
+    const a = document.createElement('a');
+    a.className = 'card';
+    a.href = 'games/' + g.slug + '/';
+    const thumb = document.createElement('div');
+    thumb.className = 'thumb';
+    if (g.thumbnail) thumb.style.backgroundImage = 'url("' + g.thumbnail + '")';
+    else thumb.textContent = 'no preview';
+    const body = document.createElement('div');
+    body.className = 'body';
+    const t = document.createElement('div');
+    t.className = 'title';
+    t.textContent = g.name || g.slug;
+    body.appendChild(t);
+    if (g.description) {
+      const d = document.createElement('div');
+      d.className = 'desc';
+      d.textContent = g.description;
+      body.appendChild(d);
+    }
+    const m = document.createElement('div');
+    m.className = 'meta';
+    m.textContent = [g.engine, g.updated].filter(Boolean).join(' · ');
+    body.appendChild(m);
+    a.append(thumb, body);
+    grid.appendChild(a);
+  }
+})();
+</script>
+</body>
+</html>
