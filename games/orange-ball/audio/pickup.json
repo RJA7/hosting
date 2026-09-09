@@ -1,0 +1,39 @@
+{
+  "id": "pickup",
+  "source": "sounds/pickup.ott",
+  "tempoBpm": 125,
+  "style": "natural",
+  "durationMs": 600,
+  "notes": [
+    {
+      "note": "C",
+      "startMs": 0,
+      "durationMs": 240,
+      "gateMs": 192,
+      "velocity": 93,
+      "midi": 84,
+      "octave": 6,
+      "freq": 1046.502
+    },
+    {
+      "note": "G",
+      "startMs": 240,
+      "durationMs": 120,
+      "gateMs": 96,
+      "velocity": 93,
+      "midi": 79,
+      "octave": 5,
+      "freq": 783.991
+    },
+    {
+      "note": "C",
+      "startMs": 360,
+      "durationMs": 240,
+      "gateMs": 192,
+      "velocity": 93,
+      "midi": 84,
+      "octave": 6,
+      "freq": 1046.502
+    }
+  ]
+}

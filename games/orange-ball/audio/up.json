@@ -1,0 +1,49 @@
+{
+  "id": "up",
+  "source": "sounds/up.ott",
+  "tempoBpm": 125,
+  "style": "natural",
+  "durationMs": 480,
+  "notes": [
+    {
+      "note": "C",
+      "startMs": 0,
+      "durationMs": 120,
+      "gateMs": 96,
+      "velocity": 93,
+      "midi": 84,
+      "octave": 6,
+      "freq": 1046.502
+    },
+    {
+      "note": "E",
+      "startMs": 120,
+      "durationMs": 120,
+      "gateMs": 96,
+      "velocity": 93,
+      "midi": 76,
+      "octave": 5,
+      "freq": 659.255
+    },
+    {
+      "note": "G",
+      "startMs": 240,
+      "durationMs": 120,
+      "gateMs": 96,
+      "velocity": 93,
+      "midi": 79,
+      "octave": 5,
+      "freq": 783.991
+    },
+    {
+      "note": "C",
+      "startMs": 360,
+      "durationMs": 120,
+      "gateMs": 96,
+      "velocity": 93,
+      "midi": 84,
+      "octave": 6,
+      "freq": 1046.502
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "pop",
+  "source": "sounds/pop.ott",
+  "tempoBpm": 125,
+  "style": "natural",
+  "durationMs": 240,
+  "notes": [
+    {
+      "note": "G",
+      "startMs": 0,
+      "durationMs": 60,
+      "gateMs": 48,
+      "velocity": 93,
+      "midi": 91,
+      "octave": 6,
+      "freq": 1567.982
+    },
+    {
+      "note": "H",
+      "startMs": 60,
+      "durationMs": 60,
+      "gateMs": 48,
+      "velocity": 93,
+      "midi": 95,
+      "octave": 6,
+      "freq": 1975.533
+    },
+    {
+      "note": "C",
+      "startMs": 120,
+      "durationMs": 120,
+      "gateMs": 96,
+      "velocity": 93,
+      "midi": 72,
+      "octave": 5,
+      "freq": 523.251
+    }
+  ]
+}

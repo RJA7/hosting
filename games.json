@@ -5,7 +5,13 @@
       "name": "MotoX",
       "engine": "pixi",
       "updated": "2026-09-08",
-      "description": "Freestyle MotoX II \u2014 web remake."
+      "description": "Freestyle MotoX II — web remake."
+    },
+    {
+      "slug": "orange-ball",
+      "name": "Orange Ball",
+      "engine": "pixi",
+      "updated": "2026-09-09"
     }
   ]
 }

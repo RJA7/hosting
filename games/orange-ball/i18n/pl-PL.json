@@ -1,0 +1,25 @@
+{
+  "locale": "pl-PL",
+  "source": "lang.pl-PL",
+  "strings": {
+    "TITLE": "Bounce",
+    "HELP_GOAL": "Kieruj piłeczką tak,\naby ominęła wszelkie przeszkody, przeszła przez wszystkie obręcze i otworzyła drzwi prowadzące na wyższy poziom.",
+    "HELP_KEYS": "Naciskaj klawisz 4, aby przenosić piłeczkę w lewo, klawisz 6 - w prawo, a klawisz 2, aby ją odbijać.",
+    "HELP_SPIKES": "Uważaj na kolce.",
+    "HELP_SIZE": "Spuszczaj powietrze, aby piłeczka się kurczyła, a pompując, przywracaj jej pierwotne rozmiary. Duże piłeczki unoszą się na wodzie, natomiast piłeczki małe toną.",
+    "HELP_CRYSTALS": "Zbieraj kryształy dla dodatkowych punktów\ni utrzymania swojej pozycji w grze. Zbieraj również kryształowe piłeczki, aby przedłużyć 'życie' swojej piłeczce.",
+    "HELP_BOOSTS": "Skacz i zwiększ chwilowo swoją prędkość i moc, a gumowe podłogi wykorzystaj na dodatkowy skok.",
+    "BACK": "Wróć",
+    "CONGRATS": "Gratulacje!",
+    "CONTINUE": "Kontynuuj",
+    "EXIT": "Wyjdź",
+    "GAME_OVER": "Koniec gry",
+    "HIGH_SCORE": "Najlepszy wynik",
+    "INSTRUCTIONS": "Instrukcje",
+    "LEVEL": "Poziom %U",
+    "LEVEL_COMPLETED": "Poziom %U zakończony sukcesem!",
+    "NEW_GAME": "Nowa gra",
+    "NEW_HIGH_SCORE": "Nowy rekord!",
+    "OK": "OK"
+  }
+}

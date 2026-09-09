@@ -1,0 +1,25 @@
+{
+  "locale": "xx",
+  "source": "lang.xx",
+  "strings": {
+    "TITLE": "Bounce",
+    "HELP_GOAL": "Guide the ball past many obstacles to pass through all the hoops and open the door to the next level.",
+    "HELP_KEYS": "Use key 4 to move the ball left, key 6 to move the ball right and key 2 to bounce the ball.",
+    "HELP_SPIKES": "Watch out for spikes.",
+    "HELP_SIZE": "Use deflators to shrink the ball and inflators to return to normal size. Large balls float in water, small balls don’t.",
+    "HELP_CRYSTALS": "Collect crystals for extra points and to store your game position. Collect crystal balls to give your ball an extra life.",
+    "HELP_BOOSTS": "Jump and speed boosts temporarily boost your powers while rubber floors give you extra bounce.",
+    "BACK": "Back",
+    "CONGRATS": "Congrats!",
+    "CONTINUE": "Continue",
+    "EXIT": "Exit",
+    "GAME_OVER": "Game over",
+    "HIGH_SCORE": "High score",
+    "INSTRUCTIONS": "Instructions",
+    "LEVEL": "Level %U",
+    "LEVEL_COMPLETED": "Level %U completed!",
+    "NEW_GAME": "New game",
+    "NEW_HIGH_SCORE": "New high score!",
+    "OK": "OK"
+  }
+}

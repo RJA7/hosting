@@ -1,0 +1,25 @@
+{
+  "locale": "ro-RO",
+  "source": "lang.ro-RO",
+  "strings": {
+    "TITLE": "Bounce",
+    "HELP_GOAL": "Ghidaţi mingea peste multe obstacole pentru a trece prin toate cercurile şi a deschide uşa către următorul nivel.",
+    "HELP_KEYS": "Utilizaţi tasta 4 pentru a deplasa mingea spre stânga, tasta 6 pentru a deplasa mingea spre dreapta şi tasta 2 pentru a lovi mingea.",
+    "HELP_SPIKES": "Feriţi-vă de cuie.",
+    "HELP_SIZE": "Utilizaţi dispozitive pentru dezumflarea mingii şi pompe pentru revenirea acesteia la dimensiunea normală. Mingile mari plutesc pe apă, iar cele mici nu plutesc.",
+    "HELP_CRYSTALS": "Colecţionaţi cristaluri pentru a acumula puncte suplimentare şi a vă păstra poziţia în joc. Colecţionaţi boluri de cristal pentru a-i da mingii dumneavoastră viaţă suplimentară.",
+    "HELP_BOOSTS": "Aporturile de sărituri şi de viteză vă sporesc temporar puterile, iar podelele din cauciuc vă dau ricoşeuri suplimentare.",
+    "BACK": "Înapoi",
+    "CONGRATS": "Felicitări!",
+    "CONTINUE": "Continuaţi",
+    "EXIT": "Ieşire",
+    "GAME_OVER": "Jocul s-a terminat",
+    "HIGH_SCORE": "Scor record",
+    "INSTRUCTIONS": "Instrucţiuni",
+    "LEVEL": "Nivel %U",
+    "LEVEL_COMPLETED": "Nivelul %U terminat!",
+    "NEW_GAME": "Joc nou",
+    "NEW_HIGH_SCORE": "Nou scor record!",
+    "OK": "OK"
+  }
+}

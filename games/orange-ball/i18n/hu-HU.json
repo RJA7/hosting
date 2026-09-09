@@ -1,0 +1,25 @@
+{
+  "locale": "hu-HU",
+  "source": "lang.hu-HU",
+  "strings": {
+    "TITLE": "Bounce",
+    "HELP_GOAL": "Irányítsa a labdát az akadályok között. Vezesse át a karikákon, és nyissa ki az ajtót, hogy a következő szintre jusson.",
+    "HELP_KEYS": "A 4 gombbal balra, a 6 gombbal jobbra irányíthatja a labdát, a 2-vel pedig felpattinthatja.",
+    "HELP_SPIKES": "Ügyeljen a tüskékre.",
+    "HELP_SIZE": "A levegőelszívóval csökkentheti a labda méretét, a pumpával visszatérhet a normál mérethez. A nagy labda úszik a vizen, a kicsi nem.",
+    "HELP_CRYSTALS": "Gyűjtsön kristályokat, így újabb pontokat szerezhet és biztosíthatja a játékban elért helyzetét. Ha kristálylabdát fog el, a labda újabb életet kap.",
+    "HELP_BOOSTS": "Az sebességi és ugróenergiák egy rövid időre megnövelik az erejét, a gumiszőnyegről pedig magfasabbra pattan fel a labda.",
+    "BACK": "Vissza",
+    "CONGRATS": "Bravó!",
+    "CONTINUE": "Folytatás",
+    "EXIT": "Kilép",
+    "GAME_OVER": "Játék vége",
+    "HIGH_SCORE": "Csúcs",
+    "INSTRUCTIONS": "Útmutató",
+    "LEVEL": "%U. szint",
+    "LEVEL_COMPLETED": "%U. szint teljesítve!",
+    "NEW_GAME": "Új játék",
+    "NEW_HIGH_SCORE": "Új csúcs- pontszám!",
+    "OK": "OK"
+  }
+}

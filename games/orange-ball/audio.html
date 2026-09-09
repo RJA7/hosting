@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bounce — sound preview</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 24px;
+        background: #202028;
+        color: #d0d0d8;
+        font-family: monospace;
+        font-size: 13px;
+        line-height: 1.6;
+      }
+      h1 {
+        font-size: 15px;
+        margin: 0 0 4px;
+      }
+      #status {
+        color: #8a8a9a;
+        margin-bottom: 16px;
+      }
+      .row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 10px;
+      }
+      button {
+        background: #3a3a44;
+        color: #f0f0f8;
+        border: 1px solid #55556a;
+        border-radius: 4px;
+        padding: 6px 12px;
+        font: inherit;
+        cursor: pointer;
+        min-width: 96px;
+      }
+      button:hover {
+        background: #4a4a58;
+      }
+      code {
+        color: #a8c8e8;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/audio-yAj7WoZC.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-P2Xu9kJm.js">
+    <link rel="modulepreload" crossorigin href="./assets/Audio-BS0ieG7w.js">
+  </head>
+  <body>
+    <h1>Bounce — OTT tone playback (T3)</h1>
+    <div id="status"></div>
+    <div id="sounds"></div>
+    <div class="row"><button id="mute">mute</button></div>
+  </body>
+</html>

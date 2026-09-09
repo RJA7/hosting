@@ -1,0 +1,25 @@
+{
+  "locale": "de",
+  "source": "lang.de",
+  "strings": {
+    "TITLE": "Bounce",
+    "HELP_GOAL": "Führen Sie den Ball an den Hindernissen vorbei durch alle Reifen und öffnen Sie die Tür zur nächsten Ebene.",
+    "HELP_KEYS": "Mit der Taste 4 bewegen Sie den Ball nach links, mit der Taste 6 bewegen Sie ihn nach rechts und mit 2 lassen Sie ihn aufspringen.",
+    "HELP_SPIKES": "Gehen Sie den Sternen mit den spitzen Stacheln aus dem Weg.",
+    "HELP_SIZE": "Mit einem Luftsauger verkleinern Sie den Ball, mit einer Luftpumpe wird er wieder auf normale Größe aufgepumpt. Große Bälle schwimmen auf Wasser, kleine Bälle nicht.",
+    "HELP_CRYSTALS": "Durch das Sammeln von Kristallen erhalten Sie Extrapunkte und können bei Ihrer letzten Spielposition fortfahren, falls der Ball platzt. Sammeln Sie Kristallbälle, durch die Ihr Ball zusätzliche Leben erhält.",
+    "HELP_BOOSTS": "Sprung- und Geschwindigkeits- verstärker erhöhen vorübergehend die Energie des Balls und Gummiböden verleihen ihm zusätzliche Sprungkraft.",
+    "BACK": "Zurück",
+    "CONGRATS": "Gratulation!",
+    "CONTINUE": "Fortfahren",
+    "EXIT": "Beend.",
+    "GAME_OVER": "Spiel vorbei",
+    "HIGH_SCORE": "Punkterekord",
+    "INSTRUCTIONS": "Anleitung",
+    "LEVEL": "Ebene %U",
+    "LEVEL_COMPLETED": "Ebene %U fertig!",
+    "NEW_GAME": "Neues Spiel",
+    "NEW_HIGH_SCORE": "Neuer Punkte- rekord!",
+    "OK": "OK"
+  }
+}

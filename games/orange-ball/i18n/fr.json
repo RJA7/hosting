@@ -1,0 +1,25 @@
+{
+  "locale": "fr",
+  "source": "lang.fr",
+  "strings": {
+    "TITLE": "Bounce",
+    "HELP_GOAL": "Guidez la balle en évitant les obstacles et en passant dans tous les anneaux pour ainsi ouvrir la porte d'accès au niveau suivant.",
+    "HELP_KEYS": "Appuyez sur la touche 4 pour diriger la balle à gauche, la touche 6 pour aller à droite et la touche 2 pour la faire rebondir.",
+    "HELP_SPIKES": "Evitez les pointes.",
+    "HELP_SIZE": "Utilisez les dégonfleurs pour réduire la taille de la balle et les gonfleurs pour lui rendre sa taille normale. Seules les grosses balles peuvent flotter dans l'eau.",
+    "HELP_CRYSTALS": "Récupérez les cristaux pour gagner des points supplémentaires et enregistrer votre position dans le jeu. Récupérez les balles de cristal pour gagner des vies supplémentaires.",
+    "HELP_BOOSTS": "Les sauts et les turbos augmentent temporairement votre puissance et les sols en caoutchouc vous font rebondir plus haut.",
+    "BACK": "Retour",
+    "CONGRATS": "Félicitations!",
+    "CONTINUE": "Continuer",
+    "EXIT": "Sortir",
+    "GAME_OVER": "Partie terminée",
+    "HIGH_SCORE": "Meilleur score",
+    "INSTRUCTIONS": "Instructions",
+    "LEVEL": "Niveau %U",
+    "LEVEL_COMPLETED": "Niveau %U terminé!",
+    "NEW_GAME": "Nouvelle partie",
+    "NEW_HIGH_SCORE": "Meilleur score battu!",
+    "OK": "Valider"
+  }
+}

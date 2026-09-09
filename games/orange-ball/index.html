@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- `viewport-fit=cover` is what makes `env(safe-area-inset-*)` non-zero, which is
+         what `core/Platform.readSafeAreaInsets()` measures and `core/Layout` keeps the
+         game and its buttons clear of. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="icon" href="images/icon.png" />
+    <title>Orange Ball</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        /* `100%` is the visual viewport on desktop but the *layout* viewport on mobile
+           Safari, which is taller than the visible area while the URL bar is up; `dvh`
+           tracks the bar and stops the control band being pushed off the bottom. */
+        height: 100%;
+        height: 100dvh;
+        overflow: hidden;
+        background: #000;
+        /* No pinch-zoom, no double-tap zoom, no pull-to-refresh under a thumb that is
+           trying to hold a button down. */
+        touch-action: none;
+        overscroll-behavior: none;
+        -webkit-user-select: none;
+        user-select: none;
+        /* Flashing grey over a button every time it is pressed is not the 2004 look. */
+        -webkit-tap-highlight-color: transparent;
+      }
+      #game-canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/main-B5QRDuQx.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-P2Xu9kJm.js">
+    <link rel="modulepreload" crossorigin href="./assets/Geometry-CZGVBKwE.js">
+    <link rel="modulepreload" crossorigin href="./assets/Filter-DM8SVgg4.js">
+    <link rel="modulepreload" crossorigin href="./assets/canvasUtils-BwcAxi36.js">
+    <link rel="modulepreload" crossorigin href="./assets/Cache-DOCLyTZt.js">
+    <link rel="modulepreload" crossorigin href="./assets/GCManagedHash-1mXRsHGx.js">
+    <link rel="modulepreload" crossorigin href="./assets/RenderTargetSystem-CqGxZEHS.js">
+    <link rel="modulepreload" crossorigin href="./assets/getTextureBatchBindGroup-CCNGb0nl.js">
+    <link rel="modulepreload" crossorigin href="./assets/GraphicsContext-2whGo5rH.js">
+    <link rel="modulepreload" crossorigin href="./assets/CanvasPool-BaexORx5.js">
+    <link rel="modulepreload" crossorigin href="./assets/BufferResource-CsatF336.js">
+    <link rel="modulepreload" crossorigin href="./assets/lib-q4om26Or.js">
+    <link rel="modulepreload" crossorigin href="./assets/Audio-BS0ieG7w.js">
+    <link rel="modulepreload" crossorigin href="./assets/TileMap-E9jpKaze.js">
+    <link rel="modulepreload" crossorigin href="./assets/Hud-BBZKSJYA.js">
+    <link rel="modulepreload" crossorigin href="./assets/Playfield-uwGYEO-Y.js">
+  </head>
+  <body>
+    <canvas id="game-canvas"></canvas>
+  </body>
+</html>
